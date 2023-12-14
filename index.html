@@ -6,10 +6,28 @@
     <title>Qr code generator</title>
     <link href="index.css" rel="stylesheet" type="text/css" />
     <script defer src="index.js"></script>
-
   </head>
   <body>
-    <h2>Welcome to my  Qr-code generator website</h2>
-    <p>Development still in progress</p>
+    <div class="container">
+      <div class="container-box-1">
+        <p>Enter text,url or image</p>
+        <input type="text" placeholder="enter field" />
+        <label for="image-upload">Select Images:</label>
+        <input
+          type="file"
+          id="image-upload"
+          name="images[]"
+          accept="image/*"
+        />
+        <button>Generate Qr-code</button>
+        <div>
+          <span>Live Preview</span>
+          <div class="QR-code-display"></div>
+        </div>
+      </div>
+      <div class="container-box-2">
+        <h2>QR-code Generator</h2>
+      </div>
+    </div>
   </body>
 </html>
