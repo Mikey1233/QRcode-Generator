@@ -1,0 +1,70 @@
+@import url("root.css");
+body{
+    background: #4b6cb7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #182848, #253356);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(100deg, #182848, #3f5a9e, #142546,#324e95); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 400% 400%;
+   height: 100vh; 
+   animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+.container{
+    padding: 10px 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+}
+.container-box-1{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 1rem;
+    padding: 2rem 3rem;
+    flex-direction: column;
+}
+.container-box-1 input{
+    padding: 10px ;
+    border: 1px solid #4b6cb7;
+    outline-color: #182848;
+}
+.container-box-1 button {
+    margin: 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 0;
+    background: #253356;
+    font-family: 'acorn-light',sans-serif;
+    color: white;
+    transition: all .4s;
+    cursor: pointer;
+}
+.container-box-1 p,label,span{
+    font-family: 'acorn-light',sans-serif;
+    font-size: 18px;
+}
+.container-box-1 button:hover{
+    background-color: #253356e2;
+}
+.container-box-2{
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.container-box-2 h2{
+    font-size: 72px;
+    line-height: 100%;
+    color: white;
+    font-family: 'acorn',sans-serif;
+}
