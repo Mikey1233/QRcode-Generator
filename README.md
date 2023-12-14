@@ -1,9 +1,9 @@
 # QRcode-Generator
-This is a simple QR code generator website created using HTML, CSS, JavaScript, and the qrcode.js library. Users can enter text, image URLs, or numbers in the input field, and the website will generate the corresponding QR code.
+This is a simple QR code generator website created using HTML, CSS, JavaScript, and the qrcode.js library. Users can enter text, links URLs, or numbers in the input field, and the website will generate the corresponding QR code.
 
 Features:
 
-Generates QR codes for text, image URLs, and numbers.
+Generates QR codes for text, link URLs, and numbers.
 Displays the QR code on the website.
 Optional download functionality.
 Simple and clean user interface.
